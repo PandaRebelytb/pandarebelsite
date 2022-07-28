@@ -1,0 +1,54 @@
+body{
+    background: url("img/background\ test.png");
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    }
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    background-color: #197dff;
+    overflow: hidden;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+li{
+    float: left;
+}
+li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.75s;
+}
+
+li a:hover {
+    background-color: orange;
+    transition: 0.75s;
+    }
+
+.historiquebdv{
+
+    text-align: justify;
+    text-decoration: black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+.nh{
+
+    text-align: justify;
+    text-decoration: black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+
+.background {
+    background: linear-gradient(#ffffff, #d6d6d6);
+    margin: 50px;
+    padding: 10px;
+}

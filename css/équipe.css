@@ -1,0 +1,122 @@
+
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+body{
+    background: url("img/background\ test.png");
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    }
+
+/* Menu */
+
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    background: #197dff;
+    overflow: hidden;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.75s;
+    }
+
+li a:hover {
+background-color: orange;
+transition: 0.75s;
+}
+.div1{
+
+    margin: 20px auto;
+    width: 15%;
+    padding: 15px;
+    border: 1px solid darkorange ;
+    text-align: center;
+    font-family: "Rock Salt", cursive;
+}
+
+footer{
+
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.team {
+
+    border-image: fill;
+    border-color: darkblue;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+
+}
+
+.soustitre2{
+    font-family: "Syncopate", cursive;
+    font-size: 25px;
+}
+
+.pr3 {
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a.animated-button.thar-two {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #F7CA18;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+a.animated-button.thar-two:hover {
+	color: #000 !important;
+	background-color: transparent;
+	text-shadow: ntwo;
+}
+a.animated-button.thar-two:hover:before {
+	top: 0%;
+	bottom: auto;
+	height: 100%;
+}
+a.animated-button.thar-two:before {
+	display: block;
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	height: 0px;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: #F7CA18;
+	transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+}
+
+.background {
+    background: linear-gradient(#edf9ff, #b3d4ff);
+    margin: 50px;
+    padding: 10px;
+    height: 320px;
+}

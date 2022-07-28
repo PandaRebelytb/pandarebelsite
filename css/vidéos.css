@@ -1,0 +1,55 @@
+body{
+
+    background: url("img/background\ test.png");
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    }
+ul{
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    background-color: #197dff;
+    overflow: hidden;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    
+}
+
+li{
+    float: left;
+}
+li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.75s;
+}
+
+li a:hover {
+    background-color: orange;
+    transition: 0.75s;
+}
+
+.background {
+    background: linear-gradient(#09c4f9, #0b5cd9);
+    margin: 50px;
+    padding: 10px;
+}
+
+head {
+    background-color: white;
+}
+
+h1{
+    font-family: "Jua", cursive;
+}
+
+.background2 {
+    background: white;
+    margin: 50px;
+}

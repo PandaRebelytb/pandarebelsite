@@ -1,0 +1,157 @@
+
+
+
+body{
+    background: url("/css/img/Pandas.jpg");
+    background-attachment: fixed;
+    padding: 20px;
+    margin: 20px;
+    background-size: cover;
+    background-position: center;
+    }
+
+/* Menu */
+ul {
+    list-style: none;
+    margin: 0%;
+    padding: 0;
+    background-color: #222222;
+    overflow: hidden;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+    transition: 0.75s;
+}
+
+li a:hover {
+    background-color: orange;
+    transition: 0.75s;
+    }
+
+/* Text noms chaines */
+
+.tchaines{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    text-decoration: underline;
+    font-weight: 500px;
+}
+
+/* Text accueil site */
+
+.bdvfront{
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkcyan;
+    text-decoration: underline;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    text-align: center;
+}
+
+.tflash{
+    text-decoration: underline;
+    color: rgb(231, 231, 231);
+    text-align: center;
+    border:rgb(244, 244, 244) outset;
+    border-radius: 10px / 20px;
+    font-family: "Jua", cursive;
+    background: #acacac;
+    margin: 50px;
+}
+
+.flash2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: "Jua", cursive;
+}
+
+footer{
+
+    text-align: center;
+    text-decoration: underline;
+    color: whitesmoke;
+
+}
+
+.imagebdv{
+
+    border-image: fill;
+    border-color: darkblue;
+    image-rendering: optimizeQuality;
+    image-resolution: 640 x 720;
+
+}
+
+.background {
+    background: linear-gradient(#ffffff, #d7d7d7);
+}
+
+.mid{
+    margin: 20px;
+}
+
+.yt{
+    text-decoration: underline;
+    color: rgb(0, 162, 255);
+    border:rgb(67, 180, 255) outset;
+    border-radius: 10px / 20px;
+    font-family: "Jua", cursive;
+    background: #99c3ea;
+    width: 350px;
+    text-align: center;
+    margin: auto;
+    padding: 1px;
+}
+
+.space {
+    color: white;
+}
+
+.tchaines2 {
+
+    color: darkblue;
+    text-decoration: underline;
+    font-weight: 500;
+
+}
+
+.flash2 {
+
+    text-align: center;
+    color: orange;
+
+}
+
+#button{
+    margin-left: 605px;
+    padding: 15px 15px;
+    background-color: #222222;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-color: #222222;
+    font-family: "Jua", cursive;
+    font-size: 18px;
+    color: white
+
+}
+
+#copyright{
+    font-family: "Jua", cursive;
+    transition: 0.2s;
+}
+
+#copyright:hover{
+    font-family: "Jua", cursive;
+    color:rgb(0, 128, 255);
+    transition: 0.2s
+}
